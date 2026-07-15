@@ -82,3 +82,22 @@ DROP TABLE detalhes_usuarios;
 DROP TABLE usuarios;
 
 
+-- =========================================================================
+-- ATIVIDADE LIVRARIA
+-- =========================================================================
+
+-- CREATE TABLE autor (
+-- 	id serial PRIMARY key,
+--  nome VARCHAR(100) NOT NULL
+-- )
+
+-- CREATE TABLE livros (
+-- 	id serial PRIMARY key,
+-- 	autor_id INT NOT null,
+-- 	nome_livro VARCHAR(100) not null,
+-- 	CONSTRAINT fk_autor FOREIGN KEY (autor_id) REFERENCES autor(id) ON DELETE CASCADE
+-- )
+
+-- INSERT INTO livros (autor_id, nome_livro)  VALUES (1, 'Aventuras de Marco');
+
+SELECT * FROM livros
